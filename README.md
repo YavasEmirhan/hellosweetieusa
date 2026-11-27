@@ -41,7 +41,7 @@ Sondaki etiket, GA4'te ziyaretin bio'dan geldiğini ayırmak için.
 | Dükkan numarası | `unit: 'F11'` yaz, `unitConfirmed: true` yap |
 | Telefon | `phone: '(708) 000-0000'` yaz. "Call" butonu kendiliğinden çıkar |
 | AVM içindeki yer | `wayfinding: 'Upper level, next to the food court'` gibi yaz |
-| Indiana mağazası | Bilgileri doldur, `lat` / `lng` ekle, `hidden: true` satırını sil |
+| Yeni mağaza | Listeye yeni bir blok ekle (adres, `lat` / `lng`, bölge). Henüz müşteriye gösterilmeyecekse `hidden: true` ekle |
 | Onaylanan bilgi | O bilgiyle ilgili `notes` satırını sil |
 
 Onaylanmamış bilgi müşteriye hiç görünmez. Adresin sonuna `#review` eklenince tüm "To confirm" notları görünür; işletmeye bilgi onaylatırken bu link gönderilir.
